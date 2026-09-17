@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Bharathkumar04-git/jenkins-archive-artifacts-pipelin.git'
+                git branch: 'main', url: 'https://github.com/Bharathkumar04-git/jenkins-archive-artifacts-pipeline.git'
             }
         }
         stage('Generate Report') {
